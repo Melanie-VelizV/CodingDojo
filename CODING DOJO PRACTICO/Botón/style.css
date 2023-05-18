@@ -1,0 +1,40 @@
+#search{
+    background-color:rgb(255, 255, 255);
+    color:rgb(98, 219, 179);
+    border: 2px solid rgb(101, 182, 155);
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    font-size: 30px;
+}
+
+#mas{
+    background-color: rgb(101, 228, 186);
+    border-radius: 50%;
+    color: white;
+    border: 0;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+
+}
+
+#create{
+    color: aliceblue;
+    background-color:cornflowerblue;
+    border: 3px solid black;
+    box-shadow: 5px 5px 4px 0px rgba(0,0,0);
+    margin: 10px;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    font-size: 30px;
+}
+
+div{
+    padding-left: 100px;
+    padding-top: 25px;
+}
