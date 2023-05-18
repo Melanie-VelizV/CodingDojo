@@ -1,0 +1,33 @@
+#titulo{
+    font-family: cursive;
+    color: white;
+    background-color: black;
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+}
+#subtitulo{
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    background-color: purple;
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+}
+#pie{
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: right;
+    color: purple;
+    background-color: cornflowerblue;
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+}
+#mid{
+    color: cyan;
+}
+body{
+    font-family: monospace ;
+    font-size: 200%;
+    
+}
