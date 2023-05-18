@@ -1,0 +1,43 @@
+#perfil{
+    width: 200px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gainsboro;
+}
+tr > td,th {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+table{
+    border-spacing: 0;
+
+}
+#email label{
+    display: flex;
+    margin-right: 10px;
+}
+.shadow{
+    margin-top: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0);
+}
+#msg{
+    margin: 10px;
+    vertical-align: middle;
+}
+#git{
+    margin: 10px;
+    vertical-align: middle;
+    width: 25px;
+}
+#linkedin{
+    margin: 10px;
+    vertical-align: middle;
+    width: 25px;
+}
+#email{
+    margin: 10px;
+    vertical-align: middle;
+    width: 25px;
+}
