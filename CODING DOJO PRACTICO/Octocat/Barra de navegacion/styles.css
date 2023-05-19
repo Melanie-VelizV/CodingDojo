@@ -1,0 +1,47 @@
+.nav{
+    background-color: rgb(78, 76, 76);
+    background-size: auto;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    
+}
+.nav-title{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+.nav-links{
+
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-left: 50%;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li{
+    padding: 10px;
+    margin: 10px;
+    justify-content:space-evenly;
+}
+
+a.active{
+    font-weight: bold;
+    color: whitesmoke;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.btn{
+    border: 3px solid;
+    border-color: black;
+    background-color: rgb(71, 139, 139);
+    color: whitesmoke;
+    box-shadow:  3px 3px black
+
+}
