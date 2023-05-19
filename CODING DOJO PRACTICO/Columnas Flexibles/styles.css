@@ -1,0 +1,25 @@
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.col {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: wheat;
+}
+
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: wheat;
+}
+
+.col-3 {
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: wheat;
+}
+
