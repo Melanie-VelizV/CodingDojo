@@ -1,0 +1,78 @@
+.container {
+    width: 800px;
+    height: 110px;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    background-color: rgb(63, 166, 173);
+    position: relative;
+    z-index: 1;
+    border: 3px solid rgb(63, 166, 173);
+}
+#row{
+    background-color: white;
+    width: 800px;
+    height: 250px;
+    border: 3px solid silver;
+    position: relative;
+    bottom: 80px;
+    margin-left: -3px;
+    border-top: none;
+}
+.user{
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+#name{
+    padding: 50px 30px 0px;
+    display: block;
+    margin: 0px;
+}
+.container2{
+    display: flex;
+    justify-content: left;
+}
+.map{
+    width: 20px;
+    height: 30px;
+    display: inline;
+    margin-left: 10px;
+    padding-top: 10px;
+    
+}
+.country{
+    display:inline-flex;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    align-items:flex-start;
+    margin-bottom: 0px;
+}
+.descripcion{
+    margin-left: 10px;
+}
+.container3{
+    display: flex;
+    justify-content: left;
+}
+.gear{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-left: 10px;
+    padding-top: 0px;
+}
+.tuerca{
+    display:inline-flex;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    align-items:flex-start;
+    margin-bottom: 0px;
+}
+
