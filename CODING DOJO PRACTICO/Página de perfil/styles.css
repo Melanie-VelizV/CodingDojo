@@ -1,0 +1,265 @@
+.nav{
+    background-color: rgb(78, 76, 76);
+    background-size: auto;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    
+}
+.nav-title{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 150px;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    color: whitesmoke;
+    list-style-type: none;
+
+}
+
+li{
+    padding: 10px;
+    margin: 10px;
+    justify-content:space-evenly;
+}
+
+a.active{
+    font-weight: bold;
+    color: whitesmoke;
+}
+#links{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.btn{
+    font-family: 'Rajdhani', sans-serif;
+    border: 3px solid black;
+    background-color: rgb(71, 139, 139);
+    box-shadow:  3px 3px black;
+    margin-left: 1200%;
+    height: 50px;
+    width: 90px;
+    padding: 0;
+}
+.columnaUno{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.container {
+    height: 110px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    background-color: rgb(63, 166, 173);
+    justify-content: space-around;
+}
+#row{
+    height: 350px;
+    background-color: white;
+    border: 3px solid silver;
+    border-top: none;
+    position: relative;
+    bottom: 130px;
+}
+.user{
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+#name{
+    padding-top: 110px;
+    display: block;
+    margin-left: 50px;
+}
+.containerDos{
+    display: flex;
+    justify-content: left;
+}
+.map{
+    width: 20px;
+    height: 30px;
+    display: inline;
+    margin-left: 10px;
+    padding-top: 10px;
+    
+}
+.country{
+    display:inline-flex;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    align-items:flex-start;
+    margin-bottom: 0px;
+}
+.descripcion{
+    margin-left: 10px;
+}
+
+.gear{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-left: 10px;
+    padding-top: 0px;
+}
+#tuerca{
+    display:inline-flex;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    align-items:flex-start;
+    margin-bottom: 0px;
+}
+
+.containerTres{
+    width: 800px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#rowDos{
+    background-color: white;
+    border: 3px solid silver;
+    border-top: none;
+    position: relative;
+}
+
+.tittle{
+    color: whitesmoke;
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.contenido{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.columnaDos{
+    width: 300px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.containerCuatro{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.dos{
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 0px 10px;
+}
+
+.dos span{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+}
+
+.parr{
+    color: whitesmoke;
+    display:inline-flex;
+    margin-left: 10px;
+    align-items: center;
+}
+#rowTres{
+    background-color: white;
+    border: 3px solid silver;
+    border-top: none;
+    height: 110px;
+}
+
+.request{
+    display: flex;
+    justify-content:left;
+    padding-left: 10px;
+}
+
+.names{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.miniUser{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+
+.containerCinco{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    margin-top: 20px;
+    height: 60px;
+}
+
+.quinientos{
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 0px 10px;
+}
+
+.quinientos span{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+}
+
+#rowCuatro{
+    background-color: white;
+    border: 3px solid silver;
+    border-top: none;
+}
+
+.viewMore{
+    background-color: white;
+    border:3px solid silver;
+    border-top:none;
+    display: inline-flex;
+    align-items: center;
+    height: 30px;
+    width: 294px;
+}
+
+#view{
+    margin-left: 10px;
+}
