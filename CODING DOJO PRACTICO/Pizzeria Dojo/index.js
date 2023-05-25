@@ -16,3 +16,6 @@ console.log(p2);
 
 var p3 = pizzaOven("pan plano", "barbacoa casera", ["mozzarella"], ["pepperoni", "pollo", "champiñones"]);
 console.log(p3);
+
+var p4 = pizzaOven("pan plano", "barbacoa casera", ["mozzarella"], ["pepperoni", "carne vacuno", "choclo"]);
+console.log(p4);
