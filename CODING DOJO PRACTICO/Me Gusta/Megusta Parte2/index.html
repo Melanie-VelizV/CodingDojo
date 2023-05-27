@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <div class="nav">
+        <h1 class="nav-title">Network</h1>
+    </div>
+    <h1 class="tittle">Your Feed</h1>
+    <div class="container">
+    <!--columna izquierda superior-->
+        <div class="columnaUno">
+            <img src="perfil.png" class="user">
+            <p class="desc" id="add">Add an avatar</p>
+            <h1 class="desc">Jane Doe</h1>
+        </div>
+    <!--columna derecha -->
+        <div class="columnaDos">
+    <!--columna derecha superior-->
+            <div class="boxUno">
+                <h1 id="word">Neil M</h1>
+                <p id="wordType">I just set up this new Discord bot, let me <br> know what you all think <span>link</span></p>
+                <p class="like"  id="likeUno">0 Like(s)</p>
+                <button onclick="aumentarLikes(0)" class="btnBox">Like</button>
+            </div>
+    <!--columna derecha media-->
+            <div class="boxDos">
+                <h1 id="word">Nichole K</h1>
+                <p id="wordType">Just finished my <span>next comic, </span> check it out</p>
+                <p class="like"  id="likeDos">0 Like(s)</p>
+                <button onclick="aumentarLikes(1)" class="btnBox">Like</button>
+            </div>
+    <!--columna derecha inferior-->
+            <div class="boxTres">
+                <h1 id="word">Jum R</h1>
+                <p id="wordType">I can't stop listening to the <span>new album.</span> <br>Who else is liking it?</p>
+                <p class="like" id="likeTres">0 Like(s)</p>
+                <button onclick="aumentarLikes(2)" class="btnBox">Like</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
