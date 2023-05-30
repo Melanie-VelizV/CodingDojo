@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo Dojo</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    <script src="./js/scripts.js"></script>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <div class="nav">
+        <h1 class="nav-title">Dojo Weather</h1>
+        <ul class="nav-links">
+            <li><a onclick="mostraAlerta()" href="#" id="links">Valparaíso</a></li>
+            <li><a onclick="mostraAlerta()" href="#" id="links">Viña del Mar</a></li>
+            <li><a onclick="mostraAlerta()" href="#" id="links">Santiago</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="subtitle">
+            <h2>Valparaíso</h2>
+            <div class="parrTemperatura">
+                <p>Mostra temperatura en: </p>
+                <select onchange="modificar(this)">
+                    <option value="celsius">°C</option>
+                    <option value="fahrenheit">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="containerDos">
+            <div class="column">
+                <h3 class="containerTitle">Hoy</h3>
+                <img class="image" src="imagenes/some_clouds.png">
+                <p class="descripcion">Un poco de nubes</p>
+                <p class="max">20°</p>
+                <p class="min">15°</p>
+            </div>
+            <div class="column">
+                <h3 class="containerTitle">Mañana</h3>
+                <img class="image" src="imagenes/some_rain.png">
+                <p class="descripcion">Un poco de lluvia</p>
+                <p class="max">19°</p>
+                <p class="min">14°</p>
+            </div>
+            <div class="column">
+                <h3 class="containerTitle">Martes</h3>
+                <img class="image" src="imagenes/some_rain.png">
+                <p class="descripcion">Un poco de lluvia</p>
+                <p class="max">18°</p>
+                <p class="min">11°</p>
+            </div>
+            <div class="column">
+                <h3 class="containerTitle">Miercoles</h3>
+                <img class="image" src="imagenes/some_sun.png">
+                <p class="descripcion">Un poco de sol</p>
+                <p class="max">21°</p>
+                <p class="min">13°</p>
+            </div>
+        </div>
+        <div id="cookies" class="containerTres">
+            <div class="columnDos imagen">
+                <img class= "img" src="./imagenes/cookie.png">
+            </div>
+            <div class="columnDos parrafo">
+                <p>Stop! Cookie time</p>
+                <P>Usamos cookies (tristemente no las que comemos) para 
+                personalizar el contenido y los anuncios, para proveer a las RRSS 
+                caracteristicas y <br>analizar nuestro tráfico <strong>Leer Más</strong></P>
+            </div>
+            <div class="columnDos boton">
+                <button onclick="ocultar()" class="btn">Acepto</button>
+            </div>
+            
+            
+        </div>
+    </div>
+</body>
+</html>
